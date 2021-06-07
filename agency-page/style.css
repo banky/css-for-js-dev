@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+header {
+  border-bottom: solid 8px hsl(0deg, 0%, 40%);
+}
+
+.max-width-wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 0 16px;
+}
+
+h2 {
+  margin: 0;
+}
+
+main {
+  min-height: 100%;
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+.card {
+  max-width: 420px;
+  padding: 16px;
+  background: hsl(0deg, 0%, 100%);
+  border-bottom: solid 8px hsl(0deg, 0%, 40%);
+}
+
+section,
+.max-width-wrapper {
+  padding-top: 48px;
+}
+
+.indented-heading {
+  margin-left: -32px;
+  margin-top: -8px;
+  background-color: hsl(45deg, 100%, 50%);
+  padding: 16px;
+  border-bottom: solid 8px hsl(45deg, 100%, 40%);
+}

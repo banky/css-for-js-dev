@@ -1,0 +1,14 @@
+{
+  "name": "css-for-js-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:banky/css-for-js-dev.git",
+  "author": "banky <bankiadebajo1@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server --port=5000 --host=localhost ."
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
